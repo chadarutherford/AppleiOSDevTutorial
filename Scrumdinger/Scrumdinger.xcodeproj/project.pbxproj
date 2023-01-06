@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD771AF02968AD7400510A81 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD771AEF2968AD7400510A81 /* ScrumsView.swift */; };
 		CD9B31642968A32100FF1EA4 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B31632968A32100FF1EA4 /* ScrumdingerApp.swift */; };
 		CD9B31662968A32100FF1EA4 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B31652968A32100FF1EA4 /* MeetingView.swift */; };
 		CD9B31682968A32300FF1EA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9B31672968A32300FF1EA4 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD771AEF2968AD7400510A81 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		CD9B31602968A32100FF1EA4 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9B31632968A32100FF1EA4 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		CD9B31652968A32100FF1EA4 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 			children = (
 				CD9B31652968A32100FF1EA4 /* MeetingView.swift */,
 				CD9B31782968A9E100FF1EA4 /* CardView.swift */,
+				CD771AEF2968AD7400510A81 /* ScrumsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				CD9B31752968A87500FF1EA4 /* DailyScrum.swift in Sources */,
 				CD9B317C2968AB7200FF1EA4 /* TrailingIconLabelStyle.swift in Sources */,
 				CD9B31732968A72800FF1EA4 /* Theme.swift in Sources */,
+				CD771AF02968AD7400510A81 /* ScrumsView.swift in Sources */,
 				CD9B31662968A32100FF1EA4 /* MeetingView.swift in Sources */,
 				CD9B31642968A32100FF1EA4 /* ScrumdingerApp.swift in Sources */,
 				CD9B31792968A9E100FF1EA4 /* CardView.swift in Sources */,
