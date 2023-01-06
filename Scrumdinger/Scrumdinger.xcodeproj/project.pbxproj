@@ -16,6 +16,7 @@
 		CD9B31752968A87500FF1EA4 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B31742968A87500FF1EA4 /* DailyScrum.swift */; };
 		CD9B31792968A9E100FF1EA4 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B31782968A9E100FF1EA4 /* CardView.swift */; };
 		CD9B317C2968AB7200FF1EA4 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9B317B2968AB7200FF1EA4 /* TrailingIconLabelStyle.swift */; };
+		CDA86F662968B0DA0000AD65 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA86F652968B0DA0000AD65 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		CD9B31742968A87500FF1EA4 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		CD9B31782968A9E100FF1EA4 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		CD9B317B2968AB7200FF1EA4 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		CDA86F652968B0DA0000AD65 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 				CD9B31652968A32100FF1EA4 /* MeetingView.swift */,
 				CD9B31782968A9E100FF1EA4 /* CardView.swift */,
 				CD771AEF2968AD7400510A81 /* ScrumsView.swift */,
+				CDA86F652968B0DA0000AD65 /* DetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD9B31752968A87500FF1EA4 /* DailyScrum.swift in Sources */,
+				CDA86F662968B0DA0000AD65 /* DetailView.swift in Sources */,
 				CD9B317C2968AB7200FF1EA4 /* TrailingIconLabelStyle.swift in Sources */,
 				CD9B31732968A72800FF1EA4 /* Theme.swift in Sources */,
 				CD771AF02968AD7400510A81 /* ScrumsView.swift in Sources */,
