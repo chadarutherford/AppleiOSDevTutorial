@@ -27,6 +27,7 @@
 		CDD31315296C8B0900B78D4C /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDD31314296C8B0900B78D4C /* ding.wav */; };
 		CDD31317296C8B2300B78D4C /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD31316296C8B2300B78D4C /* AVPlayer+Ding.swift */; };
 		CDD31319296C8EAC00B78D4C /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD31318296C8EAC00B78D4C /* History.swift */; };
+		CDD3131B296C916C00B78D4C /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD3131A296C916C00B78D4C /* ScrumStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		CDD31314296C8B0900B78D4C /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 		CDD31316296C8B2300B78D4C /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		CDD31318296C8EAC00B78D4C /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		CDD3131A296C916C00B78D4C /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				CDD31310296C73B300B78D4C /* ScrumTimer.swift */,
 				CDD31316296C8B2300B78D4C /* AVPlayer+Ding.swift */,
 				CDD31318296C8EAC00B78D4C /* History.swift */,
+				CDD3131A296C916C00B78D4C /* ScrumStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				CD43B6462968C64900B43E12 /* ThemePicker.swift in Sources */,
 				CDD3130F296C729100B78D4C /* ScrumProgressViewStyle.swift in Sources */,
 				CDD31313296C78DB00B78D4C /* MeetingFooterView.swift in Sources */,
+				CDD3131B296C916C00B78D4C /* ScrumStore.swift in Sources */,
 				CDD31311296C73B300B78D4C /* ScrumTimer.swift in Sources */,
 				CD9B31752968A87500FF1EA4 /* DailyScrum.swift in Sources */,
 				CDA86F662968B0DA0000AD65 /* DetailView.swift in Sources */,
