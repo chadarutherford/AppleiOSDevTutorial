@@ -54,6 +54,20 @@ class ScrumStore: ObservableObject {
         }
     }
     
+    @discardableResult
+    static func save(scrums: [DailyScrum]) async throws -> Int {
+        try await withCheckedThrowingContinuation { continuation in
+            save(scrums: scrums) { result in
+                switch result {
+                case let .success(scrumsSaved):
+                    continuation.resume(returning: scrumsSaved)
+                case let .failure(error):
+                    continuation.resume(throwing: error)
+                }
+            }
+        }
+    }
+    
     static func save(scrums: [DailyScrum], completion: @escaping (Result<Int, Error>) -> Void) {
         DispatchQueue.global(qos: .background).async {
             do {
