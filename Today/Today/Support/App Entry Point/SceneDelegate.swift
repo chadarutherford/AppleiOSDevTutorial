@@ -15,7 +15,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = scene as? UIWindowScene else { return }
         let window = UIWindow(windowScene: windowScene)
         self.window = window
-        window.rootViewController = ReminderListViewController(collectionViewLayout: UICollectionViewLayout.init())
+        window.rootViewController = ReminderListViewController.makeReminderListViewController()
         window.makeKeyAndVisible()
     }
 }

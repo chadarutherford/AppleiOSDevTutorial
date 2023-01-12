@@ -49,4 +49,9 @@ class ReminderListViewController: UICollectionViewController {
         listConfiguration.backgroundColor = .clear
         return UICollectionViewCompositionalLayout.list(using: listConfiguration)
     }
+    
+    static func makeReminderListViewController() -> ReminderListViewController {
+        let reminderListVC = ReminderListViewController(collectionViewLayout: UICollectionViewLayout.init())
+        return reminderListVC
+    }
 }
