@@ -10,6 +10,7 @@
 		CD18AA2D29707A5E004B8559 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD18AA2C29707A5E004B8559 /* Reminder.swift */; };
 		CD18AA3129707EF2004B8559 /* Date+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD18AA3029707EF2004B8559 /* Date+Today.swift */; };
 		CD18AA342970806F004B8559 /* ReminderListViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD18AA332970806F004B8559 /* ReminderListViewController+DataSource.swift */; };
+		CD18AA3629708445004B8559 /* UIColor+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD18AA3529708445004B8559 /* UIColor+Today.swift */; };
 		CD60F82E296CC16D00085B47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD60F82D296CC16D00085B47 /* AppDelegate.swift */; };
 		CD60F830296CC16D00085B47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD60F82F296CC16D00085B47 /* SceneDelegate.swift */; };
 		CD60F832296CC16D00085B47 /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD60F831296CC16D00085B47 /* ReminderListViewController.swift */; };
@@ -21,6 +22,7 @@
 		CD18AA2C29707A5E004B8559 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		CD18AA3029707EF2004B8559 /* Date+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Today.swift"; sourceTree = "<group>"; };
 		CD18AA332970806F004B8559 /* ReminderListViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+DataSource.swift"; sourceTree = "<group>"; };
+		CD18AA3529708445004B8559 /* UIColor+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Today.swift"; sourceTree = "<group>"; };
 		CD60F82A296CC16D00085B47 /* Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Today.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD60F82D296CC16D00085B47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD60F82F296CC16D00085B47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				CD18AA3029707EF2004B8559 /* Date+Today.swift */,
+				CD18AA3529708445004B8559 /* UIColor+Today.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD18AA3629708445004B8559 /* UIColor+Today.swift in Sources */,
 				CD60F832296CC16D00085B47 /* ReminderListViewController.swift in Sources */,
 				CD18AA3129707EF2004B8559 /* Date+Today.swift in Sources */,
 				CD60F82E296CC16D00085B47 /* AppDelegate.swift in Sources */,
