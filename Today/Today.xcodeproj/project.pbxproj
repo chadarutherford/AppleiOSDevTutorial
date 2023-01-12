@@ -11,6 +11,8 @@
 		CD18AA3129707EF2004B8559 /* Date+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD18AA3029707EF2004B8559 /* Date+Today.swift */; };
 		CD18AA342970806F004B8559 /* ReminderListViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD18AA332970806F004B8559 /* ReminderListViewController+DataSource.swift */; };
 		CD18AA3629708445004B8559 /* UIColor+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD18AA3529708445004B8559 /* UIColor+Today.swift */; };
+		CD18AA39297092F0004B8559 /* RemidnerDoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD18AA38297092F0004B8559 /* RemidnerDoneButton.swift */; };
+		CD18AA3B29709360004B8559 /* ReminderListViewController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD18AA3A29709360004B8559 /* ReminderListViewController+Actions.swift */; };
 		CD60F82E296CC16D00085B47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD60F82D296CC16D00085B47 /* AppDelegate.swift */; };
 		CD60F830296CC16D00085B47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD60F82F296CC16D00085B47 /* SceneDelegate.swift */; };
 		CD60F832296CC16D00085B47 /* ReminderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD60F831296CC16D00085B47 /* ReminderListViewController.swift */; };
@@ -23,6 +25,8 @@
 		CD18AA3029707EF2004B8559 /* Date+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Today.swift"; sourceTree = "<group>"; };
 		CD18AA332970806F004B8559 /* ReminderListViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+DataSource.swift"; sourceTree = "<group>"; };
 		CD18AA3529708445004B8559 /* UIColor+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Today.swift"; sourceTree = "<group>"; };
+		CD18AA38297092F0004B8559 /* RemidnerDoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemidnerDoneButton.swift; sourceTree = "<group>"; };
+		CD18AA3A29709360004B8559 /* ReminderListViewController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+Actions.swift"; sourceTree = "<group>"; };
 		CD60F82A296CC16D00085B47 /* Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Today.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD60F82D296CC16D00085B47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD60F82F296CC16D00085B47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,7 @@
 		CD18AA2829707A35004B8559 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CD18AA37297092DE004B8559 /* Custom Views */,
 				CD18AA2929707A3A004B8559 /* Storyboards */,
 			);
 			path = View;
@@ -117,8 +122,17 @@
 			children = (
 				CD60F831296CC16D00085B47 /* ReminderListViewController.swift */,
 				CD18AA332970806F004B8559 /* ReminderListViewController+DataSource.swift */,
+				CD18AA3A29709360004B8559 /* ReminderListViewController+Actions.swift */,
 			);
 			path = ListViewController;
+			sourceTree = "<group>";
+		};
+		CD18AA37297092DE004B8559 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD18AA38297092F0004B8559 /* RemidnerDoneButton.swift */,
+			);
+			path = "Custom Views";
 			sourceTree = "<group>";
 		};
 		CD60F821296CC16D00085B47 = {
@@ -219,8 +233,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD18AA3629708445004B8559 /* UIColor+Today.swift in Sources */,
+				CD18AA3B29709360004B8559 /* ReminderListViewController+Actions.swift in Sources */,
 				CD60F832296CC16D00085B47 /* ReminderListViewController.swift in Sources */,
 				CD18AA3129707EF2004B8559 /* Date+Today.swift in Sources */,
+				CD18AA39297092F0004B8559 /* RemidnerDoneButton.swift in Sources */,
 				CD60F82E296CC16D00085B47 /* AppDelegate.swift in Sources */,
 				CD60F830296CC16D00085B47 /* SceneDelegate.swift in Sources */,
 				CD18AA2D29707A5E004B8559 /* Reminder.swift in Sources */,
