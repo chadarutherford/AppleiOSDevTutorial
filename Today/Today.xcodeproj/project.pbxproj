@@ -20,6 +20,7 @@
 		CD60F83A296CC16E00085B47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD60F838296CC16E00085B47 /* LaunchScreen.storyboard */; };
 		CDC4A59E297C92E400527DEA /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4A59D297C92E400527DEA /* ReminderViewController.swift */; };
 		CDC4A5A0297C93BE00527DEA /* ReminderViewController+Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4A59F297C93BE00527DEA /* ReminderViewController+Row.swift */; };
+		CDC4A5A2297C999000527DEA /* ReminderViewController+Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4A5A1297C999000527DEA /* ReminderViewController+Section.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		CD60F83B296CC16E00085B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDC4A59D297C92E400527DEA /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
 		CDC4A59F297C93BE00527DEA /* ReminderViewController+Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Row.swift"; sourceTree = "<group>"; };
+		CDC4A5A1297C999000527DEA /* ReminderViewController+Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Section.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 			children = (
 				CDC4A59D297C92E400527DEA /* ReminderViewController.swift */,
 				CDC4A59F297C93BE00527DEA /* ReminderViewController+Row.swift */,
+				CDC4A5A1297C999000527DEA /* ReminderViewController+Section.swift */,
 			);
 			path = ReminderViewController;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDC4A5A2297C999000527DEA /* ReminderViewController+Section.swift in Sources */,
 				CD18AA3629708445004B8559 /* UIColor+Today.swift in Sources */,
 				CD18AA3B29709360004B8559 /* ReminderListViewController+Actions.swift in Sources */,
 				CDC4A59E297C92E400527DEA /* ReminderViewController.swift in Sources */,
