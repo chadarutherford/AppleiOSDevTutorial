@@ -29,6 +29,7 @@
 		CDC4A5AF297CB78800527DEA /* DatePickerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4A5AE297CB78800527DEA /* DatePickerContentView.swift */; };
 		CDD820E3297E025E002A31FB /* ReminderListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD820E2297E025E002A31FB /* ReminderListStyle.swift */; };
 		CDD820E5297E06C7002A31FB /* ProgressHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD820E4297E06C7002A31FB /* ProgressHeaderView.swift */; };
+		CDFC31C2297E273F00D3747A /* CAGradientLayer+ListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC31C1297E273F00D3747A /* CAGradientLayer+ListStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		CDC4A5AE297CB78800527DEA /* DatePickerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerContentView.swift; sourceTree = "<group>"; };
 		CDD820E2297E025E002A31FB /* ReminderListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListStyle.swift; sourceTree = "<group>"; };
 		CDD820E4297E06C7002A31FB /* ProgressHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHeaderView.swift; sourceTree = "<group>"; };
+		CDFC31C1297E273F00D3747A /* CAGradientLayer+ListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+ListStyle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 			children = (
 				CD18AA2C29707A5E004B8559 /* Reminder.swift */,
 				CDD820E2297E025E002A31FB /* ReminderListStyle.swift */,
+				CDFC31C1297E273F00D3747A /* CAGradientLayer+ListStyle.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 				CDC4A5A4297CACCC00527DEA /* ReminderViewController+CellConfiguration.swift in Sources */,
 				CD60F830296CC16D00085B47 /* SceneDelegate.swift in Sources */,
 				CD18AA2D29707A5E004B8559 /* Reminder.swift in Sources */,
+				CDFC31C2297E273F00D3747A /* CAGradientLayer+ListStyle.swift in Sources */,
 				CD18AA342970806F004B8559 /* ReminderListViewController+DataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
