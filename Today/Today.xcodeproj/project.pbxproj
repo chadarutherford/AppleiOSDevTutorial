@@ -28,6 +28,7 @@
 		CDC4A5AD297CB56900527DEA /* TextViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4A5AC297CB56900527DEA /* TextViewContentView.swift */; };
 		CDC4A5AF297CB78800527DEA /* DatePickerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4A5AE297CB78800527DEA /* DatePickerContentView.swift */; };
 		CDD820E3297E025E002A31FB /* ReminderListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD820E2297E025E002A31FB /* ReminderListStyle.swift */; };
+		CDD820E5297E06C7002A31FB /* ProgressHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD820E4297E06C7002A31FB /* ProgressHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		CDC4A5AC297CB56900527DEA /* TextViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewContentView.swift; sourceTree = "<group>"; };
 		CDC4A5AE297CB78800527DEA /* DatePickerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerContentView.swift; sourceTree = "<group>"; };
 		CDD820E2297E025E002A31FB /* ReminderListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListStyle.swift; sourceTree = "<group>"; };
+		CDD820E4297E06C7002A31FB /* ProgressHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				CD60F831296CC16D00085B47 /* ReminderListViewController.swift */,
 				CD18AA332970806F004B8559 /* ReminderListViewController+DataSource.swift */,
 				CD18AA3A29709360004B8559 /* ReminderListViewController+Actions.swift */,
+				CDD820E4297E06C7002A31FB /* ProgressHeaderView.swift */,
 			);
 			path = ListViewController;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDD820E5297E06C7002A31FB /* ProgressHeaderView.swift in Sources */,
 				CDC4A5A7297CADC500527DEA /* UIView+PinnedSubview.swift in Sources */,
 				CDC4A5A2297C999000527DEA /* ReminderViewController+Section.swift in Sources */,
 				CDC4A5AF297CB78800527DEA /* DatePickerContentView.swift in Sources */,
