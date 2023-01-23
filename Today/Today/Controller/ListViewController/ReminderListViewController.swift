@@ -13,7 +13,7 @@ enum Section: Int {
 
 class ReminderListViewController: UICollectionViewController {
     var dataSource: DataSource!
-    var reminders = Reminder.sampleData
+    var reminders = [Reminder]()
     var filteredReminders: [Reminder] {
         reminders.filter { listStyle.shouldInclude(date: $0.dueDate) }.sorted { $0.dueDate < $1.dueDate }
     }
@@ -58,6 +58,7 @@ class ReminderListViewController: UICollectionViewController {
         updateSnapshot()
         
         collectionView.dataSource = dataSource
+        prepareReminderStore()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -91,6 +92,16 @@ class ReminderListViewController: UICollectionViewController {
             self?.updateSnapshot(reloading: [reminder.id])
         }
         show(viewController, sender: self)
+    }
+    
+    func showError(_ error: Error) {
+        let alertTitle = NSLocalizedString("Error", comment: "Error Alert Title")
+        let alert = UIAlertController(title: alertTitle, message: error.localizedDescription, preferredStyle: .alert)
+        let actionTitle = NSLocalizedString("OK", comment: "Alert OK Button Title")
+        alert.addAction(UIAlertAction(title: actionTitle, style: .default) { [weak self] _ in
+            self?.dismiss(animated: true)
+        })
+        showDetailViewController(alert, sender: self)
     }
     
     private func listLayout() -> UICollectionViewCompositionalLayout {

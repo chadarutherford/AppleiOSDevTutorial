@@ -30,6 +30,11 @@
 		CDD820E3297E025E002A31FB /* ReminderListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD820E2297E025E002A31FB /* ReminderListStyle.swift */; };
 		CDD820E5297E06C7002A31FB /* ProgressHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD820E4297E06C7002A31FB /* ProgressHeaderView.swift */; };
 		CDFC31C2297E273F00D3747A /* CAGradientLayer+ListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC31C1297E273F00D3747A /* CAGradientLayer+ListStyle.swift */; };
+		CDFC31C4297E29DB00D3747A /* TodayError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC31C3297E29DB00D3747A /* TodayError.swift */; };
+		CDFC31C6297E2A4F00D3747A /* EKEventStore+AsyncFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC31C5297E2A4F00D3747A /* EKEventStore+AsyncFetch.swift */; };
+		CDFC31C8297E2B5300D3747A /* Reminder+EKReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC31C7297E2B5300D3747A /* Reminder+EKReminder.swift */; };
+		CDFC31CA297E2BF800D3747A /* ReminderStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC31C9297E2BF800D3747A /* ReminderStore.swift */; };
+		CDFC31CC297E32C500D3747A /* EKReminder+Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC31CB297E32C500D3747A /* EKReminder+Reminder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +63,11 @@
 		CDD820E2297E025E002A31FB /* ReminderListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListStyle.swift; sourceTree = "<group>"; };
 		CDD820E4297E06C7002A31FB /* ProgressHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHeaderView.swift; sourceTree = "<group>"; };
 		CDFC31C1297E273F00D3747A /* CAGradientLayer+ListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CAGradientLayer+ListStyle.swift"; sourceTree = "<group>"; };
+		CDFC31C3297E29DB00D3747A /* TodayError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayError.swift; sourceTree = "<group>"; };
+		CDFC31C5297E2A4F00D3747A /* EKEventStore+AsyncFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EKEventStore+AsyncFetch.swift"; sourceTree = "<group>"; };
+		CDFC31C7297E2B5300D3747A /* Reminder+EKReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reminder+EKReminder.swift"; sourceTree = "<group>"; };
+		CDFC31C9297E2BF800D3747A /* ReminderStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderStore.swift; sourceTree = "<group>"; };
+		CDFC31CB297E32C500D3747A /* EKReminder+Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EKReminder+Reminder.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +133,11 @@
 				CD18AA2C29707A5E004B8559 /* Reminder.swift */,
 				CDD820E2297E025E002A31FB /* ReminderListStyle.swift */,
 				CDFC31C1297E273F00D3747A /* CAGradientLayer+ListStyle.swift */,
+				CDFC31C3297E29DB00D3747A /* TodayError.swift */,
+				CDFC31C5297E2A4F00D3747A /* EKEventStore+AsyncFetch.swift */,
+				CDFC31C7297E2B5300D3747A /* Reminder+EKReminder.swift */,
+				CDFC31C9297E2BF800D3747A /* ReminderStore.swift */,
+				CDFC31CB297E32C500D3747A /* EKReminder+Reminder.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -290,6 +305,7 @@
 				CDC4A5AF297CB78800527DEA /* DatePickerContentView.swift in Sources */,
 				CD18AA3629708445004B8559 /* UIColor+Today.swift in Sources */,
 				CD18AA3B29709360004B8559 /* ReminderListViewController+Actions.swift in Sources */,
+				CDFC31C4297E29DB00D3747A /* TodayError.swift in Sources */,
 				CDC4A59E297C92E400527DEA /* ReminderViewController.swift in Sources */,
 				CDD820E3297E025E002A31FB /* ReminderListStyle.swift in Sources */,
 				CDC4A5AB297CB28B00527DEA /* UIContentConfiguration+Stateless.swift in Sources */,
@@ -302,9 +318,13 @@
 				CD60F82E296CC16D00085B47 /* AppDelegate.swift in Sources */,
 				CDC4A5A4297CACCC00527DEA /* ReminderViewController+CellConfiguration.swift in Sources */,
 				CD60F830296CC16D00085B47 /* SceneDelegate.swift in Sources */,
+				CDFC31C8297E2B5300D3747A /* Reminder+EKReminder.swift in Sources */,
+				CDFC31C6297E2A4F00D3747A /* EKEventStore+AsyncFetch.swift in Sources */,
 				CD18AA2D29707A5E004B8559 /* Reminder.swift in Sources */,
 				CDFC31C2297E273F00D3747A /* CAGradientLayer+ListStyle.swift in Sources */,
 				CD18AA342970806F004B8559 /* ReminderListViewController+DataSource.swift in Sources */,
+				CDFC31CA297E2BF800D3747A /* ReminderStore.swift in Sources */,
+				CDFC31CC297E32C500D3747A /* EKReminder+Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +466,7 @@
 				DEVELOPMENT_TEAM = P7DFWNNEL3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Today/Support/Info.plist;
+				INFOPLIST_KEY_NSRemindersUsageDescription = "Your reminders can hekp you stay on track.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -473,6 +494,7 @@
 				DEVELOPMENT_TEAM = P7DFWNNEL3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Today/Support/Info.plist;
+				INFOPLIST_KEY_NSRemindersUsageDescription = "Your reminders can hekp you stay on track.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
