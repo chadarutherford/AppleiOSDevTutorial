@@ -15,6 +15,7 @@
 		CD123607297E4CBF00AC083A /* QuakeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD123606297E4CBF00AC083A /* QuakeClient.swift */; };
 		CD123608297E4DA800AC083A /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1235FC297E458500AC083A /* TestData.swift */; };
 		CD12360A297E4DC700AC083A /* TestDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD123609297E4DC700AC083A /* TestDownloader.swift */; };
+		CD12360D297E4F4F00AC083A /* QuakesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD12360C297E4F4F00AC083A /* QuakesProvider.swift */; };
 		CDFC31DA297E379900D3747A /* EarthquakesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC31D9297E379900D3747A /* EarthquakesApp.swift */; };
 		CDFC31DC297E379900D3747A /* Quakes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC31DB297E379900D3747A /* Quakes.swift */; };
 		CDFC31DE297E379A00D3747A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFC31DD297E379A00D3747A /* Assets.xcassets */; };
@@ -51,6 +52,7 @@
 		CD123603297E4C0000AC083A /* HTTPDataDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPDataDownloader.swift; sourceTree = "<group>"; };
 		CD123606297E4CBF00AC083A /* QuakeClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeClient.swift; sourceTree = "<group>"; };
 		CD123609297E4DC700AC083A /* TestDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDownloader.swift; sourceTree = "<group>"; };
+		CD12360C297E4F4F00AC083A /* QuakesProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakesProvider.swift; sourceTree = "<group>"; };
 		CDFC31D6297E379900D3747A /* Earthquakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Earthquakes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFC31D9297E379900D3747A /* EarthquakesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakesApp.swift; sourceTree = "<group>"; };
 		CDFC31DB297E379900D3747A /* Quakes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quakes.swift; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 				CD1235ED297E448E00AC083A /* QuakeError.swift */,
 				CD1235FE297E476800AC083A /* GeoJSON.swift */,
 				CD123600297E493700AC083A /* QuakeLocation.swift */,
+				CD12360C297E4F4F00AC083A /* QuakesProvider.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				CDFC3200297E3FA700D3747A /* QuakeRow.swift in Sources */,
 				CDFC31FA297E3DC200D3747A /* Quake.swift in Sources */,
 				CDFC31DA297E379900D3747A /* EarthquakesApp.swift in Sources */,
+				CD12360D297E4F4F00AC083A /* QuakesProvider.swift in Sources */,
 				CDFC31F5297E3BA400D3747A /* SelectButton.swift in Sources */,
 				CD123608297E4DA800AC083A /* TestData.swift in Sources */,
 				CDFC31ED297E384B00D3747A /* DeleteButton.swift in Sources */,
