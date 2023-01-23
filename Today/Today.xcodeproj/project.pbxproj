@@ -34,6 +34,7 @@
 		CDFC31C6297E2A4F00D3747A /* EKEventStore+AsyncFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC31C5297E2A4F00D3747A /* EKEventStore+AsyncFetch.swift */; };
 		CDFC31C8297E2B5300D3747A /* Reminder+EKReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC31C7297E2B5300D3747A /* Reminder+EKReminder.swift */; };
 		CDFC31CA297E2BF800D3747A /* ReminderStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC31C9297E2BF800D3747A /* ReminderStore.swift */; };
+		CDFC31CC297E32C500D3747A /* EKReminder+Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC31CB297E32C500D3747A /* EKReminder+Reminder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		CDFC31C5297E2A4F00D3747A /* EKEventStore+AsyncFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EKEventStore+AsyncFetch.swift"; sourceTree = "<group>"; };
 		CDFC31C7297E2B5300D3747A /* Reminder+EKReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reminder+EKReminder.swift"; sourceTree = "<group>"; };
 		CDFC31C9297E2BF800D3747A /* ReminderStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderStore.swift; sourceTree = "<group>"; };
+		CDFC31CB297E32C500D3747A /* EKReminder+Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EKReminder+Reminder.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				CDFC31C5297E2A4F00D3747A /* EKEventStore+AsyncFetch.swift */,
 				CDFC31C7297E2B5300D3747A /* Reminder+EKReminder.swift */,
 				CDFC31C9297E2BF800D3747A /* ReminderStore.swift */,
+				CDFC31CB297E32C500D3747A /* EKReminder+Reminder.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				CDFC31C2297E273F00D3747A /* CAGradientLayer+ListStyle.swift in Sources */,
 				CD18AA342970806F004B8559 /* ReminderListViewController+DataSource.swift in Sources */,
 				CDFC31CA297E2BF800D3747A /* ReminderStore.swift in Sources */,
+				CDFC31CC297E32C500D3747A /* EKReminder+Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

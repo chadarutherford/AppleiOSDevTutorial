@@ -10,6 +10,7 @@ import Foundation
 enum TodayError: LocalizedError {
     case accessDenied
     case accessRestricted
+    case failedReadingCalendarItem
     case failedReadingReminders
     case reminderHasNoDueDate
     case unknown
@@ -20,6 +21,8 @@ enum TodayError: LocalizedError {
             return NSLocalizedString("The App Doesn't Have Permission to Read Reminders", comment: "Access Denied Error Description")
         case .accessRestricted:
             return NSLocalizedString("This Device Doesn't Allow Access to Reminders.", comment: "Access Restricted Error Description")
+        case .failedReadingCalendarItem:
+            return NSLocalizedString("Failed to Read A Calendar Item", comment: "Failed Reading Calendar Item Error Description")
         case .failedReadingReminders:
             return NSLocalizedString("Failed to Read Reminders", comment: "Failed Reading Reminders Error Description")
         case .reminderHasNoDueDate:
