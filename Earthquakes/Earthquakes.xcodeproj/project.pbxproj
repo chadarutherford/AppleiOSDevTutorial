@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD1235EE297E448E00AC083A /* QuakeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1235ED297E448E00AC083A /* QuakeError.swift */; };
 		CDFC31DA297E379900D3747A /* EarthquakesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC31D9297E379900D3747A /* EarthquakesApp.swift */; };
 		CDFC31DC297E379900D3747A /* Quakes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFC31DB297E379900D3747A /* Quakes.swift */; };
 		CDFC31DE297E379A00D3747A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDFC31DD297E379A00D3747A /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD1235ED297E448E00AC083A /* QuakeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeError.swift; sourceTree = "<group>"; };
 		CDFC31D6297E379900D3747A /* Earthquakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Earthquakes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDFC31D9297E379900D3747A /* EarthquakesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakesApp.swift; sourceTree = "<group>"; };
 		CDFC31DB297E379900D3747A /* Quakes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quakes.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 			children = (
 				CDFC31F9297E3DC200D3747A /* Quake.swift */,
 				CDFC31FB297E3E0E00D3747A /* Quake+Color.swift */,
+				CD1235ED297E448E00AC083A /* QuakeError.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -224,6 +227,7 @@
 				CDFC31DA297E379900D3747A /* EarthquakesApp.swift in Sources */,
 				CDFC31F5297E3BA400D3747A /* SelectButton.swift in Sources */,
 				CDFC31ED297E384B00D3747A /* DeleteButton.swift in Sources */,
+				CD1235EE297E448E00AC083A /* QuakeError.swift in Sources */,
 				CDFC31FE297E3E9600D3747A /* QuakeMagnitude.swift in Sources */,
 				CDFC31F7297E3C7F00D3747A /* Quakes+Toolbar.swift in Sources */,
 				CDFC31FC297E3E0E00D3747A /* Quake+Color.swift in Sources */,
