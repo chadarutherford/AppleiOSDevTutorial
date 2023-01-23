@@ -14,13 +14,17 @@ struct QuakeDetail: View {
     
     var body: some View {
         VStack {
+            if let location = self.location {
+                QuakeDetailMap(location: location, tintColor: quake.color)
+                    .ignoresSafeArea(.container)
+            }
             QuakeMagnitude(quake: quake)
             Text(quake.place)
                 .font(.title3)
                 .bold()
             Text("\(quake.time.formatted(date: .long, time: .standard))")
                 .foregroundStyle(.secondary)
-            if let location = quake.location {
+            if let location = self.location {
                 Text("Latitude: \(location.latitude.formatted(.number.precision(.fractionLength(3))))")
                 Text("Longitude: \(location.longitude.formatted(.number.precision(.fractionLength(3))))")
             }
